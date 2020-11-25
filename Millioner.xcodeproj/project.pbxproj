@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A123930255F392D0007C34A /* quiz_questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A12392F255F392D0007C34A /* quiz_questions.json */; };
+		1A12393325605C180007C34A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12393225605C180007C34A /* Game.swift */; };
+		1A123936256176F70007C34A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123935256176F70007C34A /* ResultsViewController.swift */; };
+		1A26E83A256566E7001B36C2 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26E839256566E7001B36C2 /* ResultTableViewCell.swift */; };
 		1A3E3E092544AC3900AA8872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E3E082544AC3900AA8872 /* AppDelegate.swift */; };
 		1A3E3E0B2544AC3900AA8872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E3E0A2544AC3900AA8872 /* SceneDelegate.swift */; };
-		1A3E3E0D2544AC3900AA8872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E3E0C2544AC3900AA8872 /* ViewController.swift */; };
+		1A3E3E0D2544AC3900AA8872 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E3E0C2544AC3900AA8872 /* MainViewController.swift */; };
 		1A3E3E102544AC3900AA8872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E3E0E2544AC3900AA8872 /* Main.storyboard */; };
 		1A3E3E122544AC3A00AA8872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E3E112544AC3A00AA8872 /* Assets.xcassets */; };
 		1A3E3E152544AC3A00AA8872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E3E132544AC3A00AA8872 /* LaunchScreen.storyboard */; };
+		1A866336256F124000F23B91 /* SettingChooseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A866335256F124000F23B91 /* SettingChooseTableViewCell.swift */; };
+		1A866339256F125300F23B91 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A866338256F125300F23B91 /* SettingTableViewController.swift */; };
+		1AFBF0672559C82000D68C12 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFBF0662559C82000D68C12 /* GameViewController.swift */; };
+		1AFBF06A2559CA8200D68C12 /* QuizParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFBF0692559CA8200D68C12 /* QuizParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A12392F255F392D0007C34A /* quiz_questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quiz_questions.json; path = ../../../../SELF/python/parser/quiz_questions.json; sourceTree = "<group>"; };
+		1A12393225605C180007C34A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1A123935256176F70007C34A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		1A26E839256566E7001B36C2 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 		1A3E3E052544AC3900AA8872 /* Millioner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millioner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3E3E082544AC3900AA8872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A3E3E0A2544AC3900AA8872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A3E3E0C2544AC3900AA8872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A3E3E0C2544AC3900AA8872 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1A3E3E0F2544AC3900AA8872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A3E3E112544AC3A00AA8872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A3E3E142544AC3A00AA8872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A3E3E162544AC3A00AA8872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A866335256F124000F23B91 /* SettingChooseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingChooseTableViewCell.swift; path = Assets.xcassets/SettingChooseTableViewCell.swift; sourceTree = "<group>"; };
+		1A866338256F125300F23B91 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		1AFBF0662559C82000D68C12 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1AFBF0692559CA8200D68C12 /* QuizParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		1A3E3E072544AC3900AA8872 /* Millioner */ = {
 			isa = PBXGroup;
 			children = (
+				1AEDE2A62559B94C00D9A842 /* resources */,
 				1A3E3E082544AC3900AA8872 /* AppDelegate.swift */,
 				1A3E3E0A2544AC3900AA8872 /* SceneDelegate.swift */,
-				1A3E3E0C2544AC3900AA8872 /* ViewController.swift */,
+				1A3E3E0C2544AC3900AA8872 /* MainViewController.swift */,
 				1A3E3E0E2544AC3900AA8872 /* Main.storyboard */,
+				1A866335256F124000F23B91 /* SettingChooseTableViewCell.swift */,
+				1A866338256F125300F23B91 /* SettingTableViewController.swift */,
+				1A26E839256566E7001B36C2 /* ResultTableViewCell.swift */,
+				1A12392F255F392D0007C34A /* quiz_questions.json */,
+				1AFBF0662559C82000D68C12 /* GameViewController.swift */,
 				1A3E3E112544AC3A00AA8872 /* Assets.xcassets */,
 				1A3E3E132544AC3A00AA8872 /* LaunchScreen.storyboard */,
 				1A3E3E162544AC3A00AA8872 /* Info.plist */,
+				1AFBF0692559CA8200D68C12 /* QuizParser.swift */,
+				1A12393225605C180007C34A /* Game.swift */,
+				1A123935256176F70007C34A /* ResultsViewController.swift */,
 			);
 			path = Millioner;
+			sourceTree = "<group>";
+		};
+		1AEDE2A62559B94C00D9A842 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +130,7 @@
 				TargetAttributes = {
 					1A3E3E042544AC3900AA8872 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -126,6 +159,7 @@
 			files = (
 				1A3E3E152544AC3A00AA8872 /* LaunchScreen.storyboard in Resources */,
 				1A3E3E122544AC3A00AA8872 /* Assets.xcassets in Resources */,
+				1A123930255F392D0007C34A /* quiz_questions.json in Resources */,
 				1A3E3E102544AC3900AA8872 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3E3E0D2544AC3900AA8872 /* ViewController.swift in Sources */,
+				1AFBF06A2559CA8200D68C12 /* QuizParser.swift in Sources */,
+				1A12393325605C180007C34A /* Game.swift in Sources */,
+				1AFBF0672559C82000D68C12 /* GameViewController.swift in Sources */,
+				1A866336256F124000F23B91 /* SettingChooseTableViewCell.swift in Sources */,
+				1A866339256F125300F23B91 /* SettingTableViewController.swift in Sources */,
+				1A123936256176F70007C34A /* ResultsViewController.swift in Sources */,
+				1A3E3E0D2544AC3900AA8872 /* MainViewController.swift in Sources */,
 				1A3E3E092544AC3900AA8872 /* AppDelegate.swift in Sources */,
+				1A26E83A256566E7001B36C2 /* ResultTableViewCell.swift in Sources */,
 				1A3E3E0B2544AC3900AA8872 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2Z9F5L738;
 				INFOPLIST_FILE = Millioner/Info.plist;
@@ -295,6 +337,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.lemur.Millioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2Z9F5L738;
 				INFOPLIST_FILE = Millioner/Info.plist;
